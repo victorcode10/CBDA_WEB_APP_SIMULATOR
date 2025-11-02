@@ -1,5 +1,5 @@
 {
-  "name": "cbda-exam-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Backend API for CBDA Exam Simulator",
   "main": "server.js",
