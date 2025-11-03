@@ -1,5 +1,5 @@
 {
-  "name": "cbda-exam-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Backend API for CBDA Exam Simulator",
   "main": "server.js",
@@ -8,19 +8,25 @@
     "dev": "nodemon server.js",
     "build": "chmod +x render-build.sh && ./render-build.sh"
   },
-  "keywords": ["cbda", "exam", "api"],
+  "keywords": [
+    "cbda",
+    "exam",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "multer": "^1.4.5-lts.1",
-    "bcryptjs": "^2.4.3"
+    "firebase-admin": "^13.5.0",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
   "engines": {
     "node": ">=14.0.0"
-  } }
+  }
+}
